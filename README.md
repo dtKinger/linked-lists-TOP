@@ -1,2 +1,2 @@
-# linked-lists-TOP
-Intro to abstract data structures - Linked Lists in JavaScript
+# Recursive linked lists TOP
+Manage link lists using JavaScript and recursion

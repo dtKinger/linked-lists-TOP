@@ -12,21 +12,19 @@ class LinkedList {
     this.length += 1
   }
 
-// LinkedList.makeNodes = function (...values) {
-    
-//     while (values){
-//       new Node(...values)
-//       this.length += 1;
-//     }
-    
-//   }
-
 }
 
 class Node {
   constructor (value, next) {
     this.value = value
     this.next = next
+  }
+}
+
+LinkedList.makeNodes = function (...values) {
+  const list = new LinkedList();
+  for (let i = values.length; i >= 0; i -= 1){
+    list.prepend(values[i])
   }
 }
 

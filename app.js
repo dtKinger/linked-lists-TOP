@@ -3,12 +3,13 @@ const LinkedList = require('./LinkedList')
 const list = new LinkedList();
 
 // null
-// list.addToStart(10);
-// list.addToStart(20);
-list.addToEnd(50);
+list.addToStart(20);
+list.addToEnd(30);
 list.addToEnd(40);
+list.addToEnd(50);
+list.addToStart(10);
 
-console.log(list.heading())
+console.log(list.tail())
 
 // list.addToEnd(50);
 // console.log(list);

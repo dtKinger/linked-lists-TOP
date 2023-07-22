@@ -10,6 +10,8 @@ list.addToEnd(40);
 list.addToStart(50);
 
 console.log(list.tail())
+list.pop()
+console.log(list.tail())
 
 // list.addToEnd(50);
 // console.log(list);

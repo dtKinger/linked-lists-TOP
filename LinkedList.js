@@ -53,11 +53,12 @@ class LinkedList {
       temp = temp.next
       index -= 1;
     }
-    return temp.value;
+    return temp;
   }
 
   pop () {
-    let tail = tail ()
+    let temp = this.getAtIndex(this.size() - 2)
+    temp.next = null
   }
 
 }

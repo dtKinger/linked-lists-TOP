@@ -45,6 +45,17 @@ class LinkedList {
     }
   }
 
+  getAtIndex (index) {
+    // Takes in input
+    // return this.(next * input)
+    let temp = this.head;
+    while (index > 0){ // > not >= because don't get .next on 0. 0 should be temp.next not temp.next.next
+      temp = temp.next
+      index -= 1;
+    }
+    return temp.value;
+  }
+
 }
 
 class Node {

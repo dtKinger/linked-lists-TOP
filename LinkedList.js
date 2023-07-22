@@ -84,6 +84,22 @@ class LinkedList {
     return `Sorry, we didn't find that value in the Linked List.`
   }
 
+  toString() {
+    // 
+    if (this.head == null) return
+    else {
+      let temp = this.head
+      let output = `( ${temp.value} ) -> ` 
+
+      while (temp.next != null){
+        
+        temp = temp.next
+        output += `( ${temp.value} ) -> `
+      }
+      console.log(`${output}null`)
+    }
+  }
+
 }
 
 class Node {

@@ -9,7 +9,7 @@ list.addToStart(30);
 list.addToEnd(40);
 list.addToStart(50);
 
-console.log(list.getAtIndex(4))
+console.log(list.tail())
 
 // list.addToEnd(50);
 // console.log(list);

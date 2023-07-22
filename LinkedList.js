@@ -41,7 +41,7 @@ class LinkedList {
       while (temp.next != null){
         temp = temp.next
       }
-      return temp.value;
+      return temp;
     }
   }
 
@@ -54,6 +54,10 @@ class LinkedList {
       index -= 1;
     }
     return temp.value;
+  }
+
+  pop () {
+    let tail = tail ()
   }
 
 }

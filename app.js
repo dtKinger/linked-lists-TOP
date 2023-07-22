@@ -9,7 +9,7 @@ list.addToStart(30);
 list.addToEnd(40);
 list.addToStart(50);
 
-console.log(list.contains(20))
+console.log(list.find(40))
 
 
 // list.addToEnd(50);

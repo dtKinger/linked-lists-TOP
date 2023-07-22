@@ -72,6 +72,18 @@ class LinkedList {
     return false
   }
 
+  find (val) {
+    // Count along the way
+    let temp = this.head
+    let count = 0;
+    while (temp != null){
+      if (temp.value == val) return count;
+      temp = temp.next
+      count += 1;
+    }
+    return `Sorry, we didn't find that value in the Linked List.`
+  }
+
 }
 
 class Node {

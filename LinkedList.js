@@ -26,6 +26,14 @@ class LinkedList {
     }
   }
 
+  size () {
+    return this.length
+  }
+
+  heading () {
+    return this.head.value
+  }
+
 }
 
 class Node {

@@ -23,9 +23,10 @@ class Node {
 
 LinkedList.makeNodes = function (...values) {
   const list = new LinkedList();
-  for (let i = values.length; i >= 0; i -= 1){
+  for (let i = values.length -1; i >= 0; i -= 1){
     list.prepend(values[i])
   }
+  return list
 }
 
 module.exports = LinkedList

@@ -1,2 +1,2 @@
-# Recursive linked lists TOP
-Manage link lists using JavaScript and recursion
+# Dynamic data structures - Linked lists TOP
+Manage link lists using JavaScript

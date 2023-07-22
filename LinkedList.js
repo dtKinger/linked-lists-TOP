@@ -61,6 +61,17 @@ class LinkedList {
     temp.next = null
   }
 
+  contains (val) {
+    // Traverse and read data / check
+    let temp = this.head
+    while (temp != null){
+      if (temp.value == val) return true
+
+      temp = temp.next
+    }
+    return false
+  }
+
 }
 
 class Node {
@@ -70,6 +81,7 @@ class Node {
   }
 }
 
+// Credit to WDS
 LinkedList.makeNodes = function (...values) {
   const list = new LinkedList();
   for (let i = values.length -1; i >= 0; i -= 1){ // We go in reverse order because

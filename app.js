@@ -9,9 +9,8 @@ list.addToStart(30);
 list.addToEnd(40);
 list.addToStart(50);
 
-console.log(list.tail())
-list.pop()
-console.log(list.tail())
+console.log(list.contains(20))
+
 
 // list.addToEnd(50);
 // console.log(list);
